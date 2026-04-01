@@ -1,0 +1,41 @@
+body {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  background-color: white;
+  width: 270px;
+  height: 400px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  padding: 4px 7px;
+  border-radius: 5px;
+}
+
+#input {
+  border: 2px solid blue;
+}
+input:focus {
+  border: 2px solid blue;
+  outline: none;
+}
